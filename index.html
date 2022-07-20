@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&;400&display=swap" rel="stylesheet">
+
     <title>Jimmy's Project</title>
 </head>
 <body>
     <div class="header-container">
     <h1>Jimmy's Project</h1>
-    <p>Toggle Light mode/Dark mode</p>
-    <button id="dark-light">Toggle</button>
+    <!-- <p>Toggle Light mode/Dark mode</p> -->
+    <button id="dark-light">Dark / Light</button>
     </div>
     
-    <div class="random-container">
+    <div class="random-container container">
         <p>Get Random Doggo</p>
         <button id="get-random">Go</button>
-        <img id="random-img" src="" alt="" srcset="">
-       
+        <!-- <img id="random-img" src="" alt="" srcset=""> -->
+       <div id="rando"></div>
     </div>
-    <div class="breed-container">
+    <div  class="breed-container container">
         <p>Search By Breed</p>
         <input id="search-input" type="text" placeholder="search..."></input>
         <button id="get-breed">Go</button>
-        <img id="breed-img" src="" alt="" srcset="">
+        <!-- <img id="breed-img" src="" alt="" srcset=""> -->
+        <div id="breed"></div>
     </div>
     
     <script src="index.js"></script>
